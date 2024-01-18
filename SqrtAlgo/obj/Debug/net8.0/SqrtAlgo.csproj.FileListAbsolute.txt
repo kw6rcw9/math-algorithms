@@ -1,0 +1,15 @@
+F:\Git\MathsAlgo\SqrtAlgo\bin\Debug\net8.0\SqrtAlgo.exe
+F:\Git\MathsAlgo\SqrtAlgo\bin\Debug\net8.0\SqrtAlgo.deps.json
+F:\Git\MathsAlgo\SqrtAlgo\bin\Debug\net8.0\SqrtAlgo.runtimeconfig.json
+F:\Git\MathsAlgo\SqrtAlgo\bin\Debug\net8.0\SqrtAlgo.dll
+F:\Git\MathsAlgo\SqrtAlgo\bin\Debug\net8.0\SqrtAlgo.pdb
+F:\Git\MathsAlgo\SqrtAlgo\obj\Debug\net8.0\SqrtAlgo.GeneratedMSBuildEditorConfig.editorconfig
+F:\Git\MathsAlgo\SqrtAlgo\obj\Debug\net8.0\SqrtAlgo.AssemblyInfoInputs.cache
+F:\Git\MathsAlgo\SqrtAlgo\obj\Debug\net8.0\SqrtAlgo.AssemblyInfo.cs
+F:\Git\MathsAlgo\SqrtAlgo\obj\Debug\net8.0\SqrtAlgo.csproj.CoreCompileInputs.cache
+F:\Git\MathsAlgo\SqrtAlgo\obj\Debug\net8.0\SqrtAlgo.sourcelink.json
+F:\Git\MathsAlgo\SqrtAlgo\obj\Debug\net8.0\SqrtAlgo.dll
+F:\Git\MathsAlgo\SqrtAlgo\obj\Debug\net8.0\refint\SqrtAlgo.dll
+F:\Git\MathsAlgo\SqrtAlgo\obj\Debug\net8.0\SqrtAlgo.pdb
+F:\Git\MathsAlgo\SqrtAlgo\obj\Debug\net8.0\SqrtAlgo.genruntimeconfig.cache
+F:\Git\MathsAlgo\SqrtAlgo\obj\Debug\net8.0\ref\SqrtAlgo.dll
