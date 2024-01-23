@@ -35,6 +35,7 @@ namespace SqrtAlgo
             fullNum.Reverse();
             string ostatok = ""; 
             string n = "";
+           
             DevideRecursion(fullNum[0], ostatok, n, ranks);
             Console.WriteLine($"Корень числа {number}: ");
             foreach (var item in result)
@@ -48,50 +49,66 @@ namespace SqrtAlgo
             if(fullStr == ""){
                 return;
             }
+            
             string workStr = ostatok + fullStr;
             string left = "";
             if(n != "")
                  left = (int.Parse(n) * 2).ToString();
-             int temp = 0;
+            int temp = 0;
                 
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i <= 10; i++)
              {
                  if(int.Parse(left + i.ToString()) * i > int.Parse(workStr))
                  {
                      temp = int.Parse(left + (i - 1).ToString()) * (i - 1);
                       ostatok = (int.Parse(workStr) - temp).ToString();
                      result.Add(char.Parse((i - 1).ToString()));
-                      n = n + (i - 1).ToString(); 
+                      n = n + (i - 1).ToString();
+                      Console.WriteLine("Worked"); 
                     break;
                 }
                     
             }
+            Console.WriteLine("Workstr: " + workStr);
+            Console.WriteLine("FullStr: " + fullStr);
+            Console.WriteLine("ostatok: " + ostatok);
+            Console.WriteLine("Left: " + n);
             for (int i = 0; i < fullNum.Count; i++)
             {
-                if(fullNum[fullNum.Count - 1] == fullStr && ostatok == "0"){
-                     fullStr = "";  
+                if(i == fullNum.Count - 1 && ostatok == "0"){
+                     fullStr = "";
+                     Console.WriteLine("Here1");  
                      break;
                 }
-                if(fullNum[fullNum.Count - 1] == fullStr && ranks > 0){     
+                if(i == fullNum.Count - 1 &&  fullNum[i] == fullStr && ostatok != "0" && ranks > 0){     
+                    Console.WriteLine(fullNum[i]);
                     fullStr = "00";
                      ranks -= 1;
+                     fullNum[i] = "";
+                     Console.WriteLine("Here2");  
                      result.Add(',');
                      break;
                 }
 
-                if(fullNum[i] == fullStr){     
-                     fullStr = fullNum[i + 1];
+                if(fullNum[i] == fullStr && i < fullNum.Count - 1){     
+                    fullStr = fullNum[i + 1];
+                    fullNum.RemoveAt(i);
+                    Console.WriteLine("Here3");  
                     break;
                 }
-                if(ranks == 0 && fullNum[fullNum.Count - 1] != fullStr){     
+                if(i == fullNum.Count - 1  && ranks == 0 ){
+                     
                     fullStr = "";
+                    Console.WriteLine("Here4");  
                      break;
                 }
-                if(ranks > 0){
+                if(i == fullNum.Count - 1  && ranks > 0 ){
                     fullStr = "00";
+                    Console.WriteLine("Here5");  
                      ranks -= 1;   
                      break;
                 }
+                
             }    
             DevideRecursion(fullStr, ostatok, n, ranks);        
         }

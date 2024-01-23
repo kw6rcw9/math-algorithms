@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SqrtAlgo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1761afda901c508b51c86c54a571bf7875444435")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a63a56655451531c9e480bf2530a89f4e3f020a")]
 [assembly: System.Reflection.AssemblyProductAttribute("SqrtAlgo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SqrtAlgo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
