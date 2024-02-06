@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("SqrtAlgo")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("SearchAlgo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46024cb1961ddfb7f9c7225b6f05e2157c4462a1")]
-[assembly: System.Reflection.AssemblyProductAttribute("SqrtAlgo")]
-[assembly: System.Reflection.AssemblyTitleAttribute("SqrtAlgo")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f657ba25f8e56ff088aa8e49d7f1e080aee8360")]
+[assembly: System.Reflection.AssemblyProductAttribute("SearchAlgo")]
+[assembly: System.Reflection.AssemblyTitleAttribute("SearchAlgo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.

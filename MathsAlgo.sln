@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqrtAlgo", "SqrtAlgo.csproj", "{26121281-F223-468E-95AC-5B3C6D49418A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchAlgo", "SearchAlgo\SearchAlgo.csproj", "{396F96FD-D429-4C12-BB30-7BCF7F868353}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{26121281-F223-468E-95AC-5B3C6D49418A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{26121281-F223-468E-95AC-5B3C6D49418A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{26121281-F223-468E-95AC-5B3C6D49418A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{26121281-F223-468E-95AC-5B3C6D49418A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{396F96FD-D429-4C12-BB30-7BCF7F868353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{396F96FD-D429-4C12-BB30-7BCF7F868353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{396F96FD-D429-4C12-BB30-7BCF7F868353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{396F96FD-D429-4C12-BB30-7BCF7F868353}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A659E6D5-36A6-49F8-9665-C16CF3693861}
+		SolutionGuid = {511ADD71-C416-420B-9AF9-F01E6D06A597}
 	EndGlobalSection
 EndGlobal
