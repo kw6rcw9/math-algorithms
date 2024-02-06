@@ -8,17 +8,17 @@ int[,] arr = new int[5,7]{
     {6,10,13,15,20,24,27},
     {11,14,16,18,21,27,30}
     };
-
-Search(arr, 17);
+var searchElement = 17;
+Search(arr, searchElement);
 // SearchAll(arr,6);
 
 
 bool Search(int[,] arr, int searchElement){
+    var j = arr.GetLength(1) - 1;
     for (int i = 0; i < arr.GetLength(0); i++)
     {
-        for (int j = arr.GetLength(1) - 1; j >= 0; j--)
-        {
-            
+        j--;
+         
             if(searchElement > arr[i,j]){
               
                 break;
@@ -33,7 +33,7 @@ bool Search(int[,] arr, int searchElement){
                  Console.WriteLine("There is no such element in this matrix");
                  return false;
             }
-        }
+        
     }
 
  return false;
