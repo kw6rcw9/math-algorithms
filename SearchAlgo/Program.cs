@@ -17,54 +17,58 @@ bool Search(int[,] arr, int searchElement){
     var j = arr.GetLength(1) - 1;
     for (int i = 0; i < arr.GetLength(0); i++)
     {
-        j--;
          
             if(searchElement > arr[i,j]){
               
-                break;
+                continue;
             }
-    
             if(searchElement == arr[i,j]){
-                Console.WriteLine($"Element: {searchElement} has index [{i},{j}]");
-                return true;
-            }
-
-            if(j == 0){
-                 Console.WriteLine("There is no such element in this matrix");
-                 return false;
+                    Console.WriteLine($"Element: {searchElement} has index [{i},{j}]");
+                    return true;
+                }
+ 
+           
+            while (searchElement < arr[i,j])
+            {
+                j--;
+                if(searchElement == arr[i,j]){
+                    Console.WriteLine($"Element: {searchElement} has index [{i},{j}]");
+                    return true;
+                }
+                
             }
         
     }
-
+ Console.WriteLine("There is no such element in this matrix");
  return false;
 
 }
 
-bool SearchAll(int[,] arr, int searchElement){
-    var isFound = false;
-    for (int i = 0; i < arr.GetLength(0); i++)
-    {
-        for (int j = arr.GetLength(1) - 1; j >= 0; j--)
-        {
+// bool SearchAll(int[,] arr, int searchElement){
+//     var isFound = false;
+//     for (int i = 0; i < arr.GetLength(0); i++)
+//     {
+//         for (int j = arr.GetLength(1) - 1; j >= 0; j--)
+//         {
             
-            if(searchElement > arr[i,j]){
+//             if(searchElement > arr[i,j]){
               
-                break;
-            }
+//                 break;
+//             }
     
-            if(searchElement == arr[i,j]){
-                Console.WriteLine($"Element: {searchElement} has index [{i},{j}]");
-                isFound = true;
+//             if(searchElement == arr[i,j]){
+//                 Console.WriteLine($"Element: {searchElement} has index [{i},{j}]");
+//                 isFound = true;
                 
-            }
+//             }
 
-            if(j == 0 && !isFound){
-                 Console.WriteLine("There is no such element in this matrix");
-                 return false;
-            }
-        }
-    }
+//             if(j == 0 && !isFound){
+//                  Console.WriteLine("There is no such element in this matrix");
+//                  return false;
+//             }
+//         }
+//     }
 
-    return true;
+//     return true;
 
-}
+// }
