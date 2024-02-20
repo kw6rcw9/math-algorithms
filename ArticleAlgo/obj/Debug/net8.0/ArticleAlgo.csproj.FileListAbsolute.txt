@@ -1,0 +1,15 @@
+F:\Git\MathsAlgo\ArticleAlgo\bin\Debug\net8.0\ArticleAlgo.exe
+F:\Git\MathsAlgo\ArticleAlgo\bin\Debug\net8.0\ArticleAlgo.deps.json
+F:\Git\MathsAlgo\ArticleAlgo\bin\Debug\net8.0\ArticleAlgo.runtimeconfig.json
+F:\Git\MathsAlgo\ArticleAlgo\bin\Debug\net8.0\ArticleAlgo.dll
+F:\Git\MathsAlgo\ArticleAlgo\bin\Debug\net8.0\ArticleAlgo.pdb
+F:\Git\MathsAlgo\ArticleAlgo\obj\Debug\net8.0\ArticleAlgo.GeneratedMSBuildEditorConfig.editorconfig
+F:\Git\MathsAlgo\ArticleAlgo\obj\Debug\net8.0\ArticleAlgo.AssemblyInfoInputs.cache
+F:\Git\MathsAlgo\ArticleAlgo\obj\Debug\net8.0\ArticleAlgo.AssemblyInfo.cs
+F:\Git\MathsAlgo\ArticleAlgo\obj\Debug\net8.0\ArticleAlgo.csproj.CoreCompileInputs.cache
+F:\Git\MathsAlgo\ArticleAlgo\obj\Debug\net8.0\ArticleAlgo.sourcelink.json
+F:\Git\MathsAlgo\ArticleAlgo\obj\Debug\net8.0\ArticleAlgo.dll
+F:\Git\MathsAlgo\ArticleAlgo\obj\Debug\net8.0\refint\ArticleAlgo.dll
+F:\Git\MathsAlgo\ArticleAlgo\obj\Debug\net8.0\ArticleAlgo.pdb
+F:\Git\MathsAlgo\ArticleAlgo\obj\Debug\net8.0\ArticleAlgo.genruntimeconfig.cache
+F:\Git\MathsAlgo\ArticleAlgo\obj\Debug\net8.0\ref\ArticleAlgo.dll

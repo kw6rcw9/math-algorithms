@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Git\\MathsAlgo\\SearchAlgo\\SearchAlgo.csproj",
-      "projectName": "SearchAlgo",
-      "projectPath": "F:\\Git\\MathsAlgo\\SearchAlgo\\SearchAlgo.csproj",
+      "projectUniqueName": "F:\\Git\\MathsAlgo\\ArticleAlgo\\ArticleAlgo.csproj",
+      "projectName": "ArticleAlgo",
+      "projectPath": "F:\\Git\\MathsAlgo\\ArticleAlgo\\ArticleAlgo.csproj",
       "packagesPath": "C:\\Users\\Катя\\.nuget\\packages\\",
-      "outputPath": "F:\\Git\\MathsAlgo\\SearchAlgo\\obj\\",
+      "outputPath": "F:\\Git\\MathsAlgo\\ArticleAlgo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

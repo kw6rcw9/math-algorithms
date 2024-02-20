@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchAlgo", "SearchAlgo\SearchAlgo.csproj", "{396F96FD-D429-4C12-BB30-7BCF7F868353}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SearchAlgo", "ArticleAlgo\ArticleAlgo.csproj", "{396F96FD-D429-4C12-BB30-7BCF7F868353}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
